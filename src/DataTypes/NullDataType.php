@@ -8,7 +8,7 @@
 
 namespace DotMailer\Api\DataTypes;
 
-class Null implements IDataType
+class NullDataType implements IDataType
 {
 
     public function toJson()
@@ -25,5 +25,4 @@ class Null implements IDataType
     {
         return $this->toJson();
     }
-
 }
